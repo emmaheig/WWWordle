@@ -25,7 +25,7 @@ class Answer {
 
         const submitButton = document.createElement('input');
         submitButton.type = 'submit';
-        submitButton.value = 'Envoyer';
+        submitButton.value = 'Soumettre';
         submitButton.disabled = !this.isActive;
         form.appendChild(submitButton);
 
